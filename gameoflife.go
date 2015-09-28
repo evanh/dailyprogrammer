@@ -122,9 +122,9 @@ func MakeGame(lines []string) *Game {
 
 func main() {
 	input := `What? 
-This is exceedingly silly. 
+    This is exceedingly silly. 
 
-Really, we would like some ACTUAL programming challenges around here.`
+    Really, we would like some ACTUAL programming challenges around here.`
 
 	lines := strings.Split(input, "\n")
 	game := MakeGame(lines)
